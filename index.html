@@ -2,35 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Zhuparbay Erkebulan</h1>
-    <h2>Group: SE-2423</h2>
-    <h3>About Me</h3>
-    <p>I student aitu, study 2 course and I love play games</p>
 
-    <h3>Hobbies</h3>
-    <ol>
+<header id="header">
+    <h1>Zhuparbay Yerkebulan</h1>
+    <h2>Group: SE-2423</h2>
+    <nav id="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h3 class="section-heading">About Me</h3>
+    <p class="paragraph-text">I am a student of AITU, 2nd course. I love playing games.</p>
+</section>
+
+<section>
+    <h3 class="section-heading">Hobbies</h3>
+    <ul>
         <li>Play MLBB</li>
         <li>Play PUBG Mobile</li>
         <li>Read manga</li>
-    </ol>
-
-    <h3>Favorite Sites</h3>
-    <ul>
-        <li><a href="https://www.youtube.com/" >YouTube</a></li>
-        <li><a href="https://jut.su/" >Jut.su</a></li>
     </ul>
+</section>
 
-    <h3>My favorite site logo</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
-         alt="YouTube Logo" width="200">
+<section>
+    <h3 class="section-heading">Favorite Site</h3>
+    <a href="https://www.youtube.com/">
+        <img id="main-image" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+    </a>
+</section>
 
-    <button>Click Me</button>
+<button class="btn">Click Me</button>
 
-    <h3>Моё расписание</h3>
-    <table border="1">
+<section>
+    <h3 class="section-heading">Schedule</h3>
+    <table id="schedule">
         <tr>
             <th>Subject</th>
             <th>Day</th>
@@ -39,28 +51,33 @@
         <tr>
             <td>Web Tech</td>
             <td>Monday</td>
-            <td>18.00-18.50</td>
+            <td>18:00</td>
         </tr>
         <tr>
-            <td>Operating system</td>
+            <td>Operating System</td>
             <td>Wednesday</td>
-            <td>12:00-12.50</td>
+            <td>12:00</td>
         </tr>
         <tr>
-            <td>fitnes</td>
+            <td>Fitness</td>
             <td>Friday</td>
-            <td>16:00-17.50</td>
+            <td>16:00</td>
         </tr>
     </table>
+</section>
 
-    <p>Today funny day 😎🎮🚴‍♂️</p>
-
-    <h3>Feedback Form</h3>
+<section>
+    <h3 class="section-heading">Feedback Form</h3>
     <form>
-        Name: <input type="text" name="name"><br><br>
-        Email: <input type="email" name="email"><br><br>
-        Favorite Color: <input type="color" name="color"><br><br>
-        <input type="submit" value="Submit">
+        <input class="form-input" type="text" placeholder="Name"><br>
+        <input class="form-input" type="email" placeholder="Email"><br>
+        <input class="submit-btn" type="submit" value="Submit">
     </form>
+</section>
+
+<footer id="footer">
+    <p>Contact: erkebulan@gmail.com</p>
+</footer>
+
 </body>
 </html>
