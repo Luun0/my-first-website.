@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+#header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: yellow;
+}
+.section-heading {
+    color: #4CAF50;
+}
+.paragraph-text {
+    font-size: 14px;
+}
+#main-image {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #4CAF50;
+}
+#schedule {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+#schedule th {
+    background: #4CAF50;
+    color: white;
+    padding: 6px;
+}
+#schedule td {
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 6px 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #45a049;
+}
+.form-input {
+    padding: 5px;
+    margin: 5px 0;
+}
+.submit-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background: #45a049;
+}
+#footer {
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
